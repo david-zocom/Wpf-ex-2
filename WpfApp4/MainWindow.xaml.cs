@@ -24,5 +24,10 @@ namespace WpfApp4
 		{
 			InitializeComponent();
 		}
+
+		private void exerise1btn_Click(object sender, RoutedEventArgs e)
+		{
+			exercise1label.Content = "You clicked the button";
+		}
 	}
 }
