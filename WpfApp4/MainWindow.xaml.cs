@@ -30,6 +30,7 @@ namespace WpfApp4
 			exercise1label.Content = "You clicked the button";
 		}
 		private bool onOffStatus = true;
+		private int counter = 1;
 
 		private void exercise2btn_Click(object sender, RoutedEventArgs e)
 		{
@@ -43,6 +44,12 @@ namespace WpfApp4
 		private void exercise3btn_Click(object sender, RoutedEventArgs e)
 		{
 			exercise3label.Content = exercise3tb.Text;
+		}
+
+		private void CountingButton_Click(object sender, RoutedEventArgs e)
+		{
+			countingListbox.Items.Add(counter);
+			counter++;
 		}
 	}
 }

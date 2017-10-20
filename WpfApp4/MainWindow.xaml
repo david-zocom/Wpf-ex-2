@@ -13,6 +13,8 @@
 		<Button x:Name="exercise3btn" Content="Uppdatera label" HorizontalAlignment="Left" Margin="338,18,0,0" VerticalAlignment="Top" Width="120" Click="exercise3btn_Click"/>
 		<TextBox x:Name="exercise3tb" HorizontalAlignment="Left" Height="23" Margin="338,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 		<Label x:Name="exercise3label" Content="" HorizontalAlignment="Left" Margin="338,71,0,0" VerticalAlignment="Top"/>
+		<ListBox x:Name="countingListbox" HorizontalAlignment="Left" Height="100" Margin="10,143,0,0" VerticalAlignment="Top" Width="100"/>
+		<Button x:Name="CountingButton" Content="Räkna upp" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Width="100" Click="CountingButton_Click"/>
 
 	</Grid>
 </Window>
