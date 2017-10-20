@@ -29,5 +29,15 @@ namespace WpfApp4
 		{
 			exercise1label.Content = "You clicked the button";
 		}
+		private bool onOffStatus = true;
+
+		private void exercise2btn_Click(object sender, RoutedEventArgs e)
+		{
+			if (onOffStatus)
+				exercise2btn.Content = "Off";
+			else
+				exercise2btn.Content = "On";
+			onOffStatus = !onOffStatus;
+		}
 	}
 }
