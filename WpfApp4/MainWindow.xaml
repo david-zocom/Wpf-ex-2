@@ -10,6 +10,9 @@
 		<Button x:Name="exerise1btn" Content="CLick me" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" Width="75" Click="exerise1btn_Click"/>
 		<Label x:Name="exercise1label" Content="Nothing has happened yet" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top"/>
 		<Button x:Name="exercise2btn" Content="On" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="75" Click="exercise2btn_Click"/>
+		<Button x:Name="exercise3btn" Content="Uppdatera label" HorizontalAlignment="Left" Margin="338,18,0,0" VerticalAlignment="Top" Width="120" Click="exercise3btn_Click"/>
+		<TextBox x:Name="exercise3tb" HorizontalAlignment="Left" Height="23" Margin="338,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label x:Name="exercise3label" Content="" HorizontalAlignment="Left" Margin="338,71,0,0" VerticalAlignment="Top"/>
 
 	</Grid>
 </Window>

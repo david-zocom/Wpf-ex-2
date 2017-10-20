@@ -39,5 +39,10 @@ namespace WpfApp4
 				exercise2btn.Content = "On";
 			onOffStatus = !onOffStatus;
 		}
+
+		private void exercise3btn_Click(object sender, RoutedEventArgs e)
+		{
+			exercise3label.Content = exercise3tb.Text;
+		}
 	}
 }
